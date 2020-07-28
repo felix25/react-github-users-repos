@@ -1,7 +1,8 @@
 import React from 'react'
+import { CardsContentIn } from './user.styles'
 const userItems = ({item}) => {
     return (
-        <div className="card">
+        <CardsContentIn>
             <div className="card-inner">
                 <div className="card-front">
                     <img src={item.avatar_url} alt=''/>
@@ -11,7 +12,7 @@ const userItems = ({item}) => {
                     <a href={`user/${item.login}`}>view profile</a>
                 </div>
             </div>
-        </div>
+        </CardsContentIn>
     )
 }
 

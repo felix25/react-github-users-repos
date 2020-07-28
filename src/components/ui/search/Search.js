@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { SearchsContent } from './search.styles'
 const Search = ({getQuery}) => {
     const [text, setText] = useState('')
     const onChange = (q) =>{
@@ -7,7 +7,7 @@ const Search = ({getQuery}) => {
         getQuery(q)
     }
     return (
-        <div className="search">
+        <SearchsContent>
             <form>
                 <input
                     type="text"
@@ -18,7 +18,7 @@ const Search = ({getQuery}) => {
                     autoFocus
                 />
             </form>
-        </div>
+        </SearchsContent>
     )
 }
 

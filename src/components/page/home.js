@@ -1,7 +1,7 @@
 import React ,{ useState, useEffect}from 'react';
 import axios from 'axios'
 import UserGrid from '../users/userGrid'
-import Search from '../ui/Search'
+import Search from '../ui/search/Search'
 import '../../App.css';
 
 const App =()=> {

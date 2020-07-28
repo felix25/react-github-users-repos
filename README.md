@@ -1,6 +1,8 @@
 ## react-github-users-repos
 
-Web de ejemplo usando la api de github y reactjs.
+Api de github y reactjs.
+
+![](screenshot.png)
 
 ### Features
 
